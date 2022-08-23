@@ -1,0 +1,18 @@
+@import './variables';
+
+.header {
+  height: 80px;
+  background: $primaryNavBackground;
+  box-shadow: 0 10px 6px -10px $primaryNavBoxShadow;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.header-text {
+  font-size: 2rem;
+}
