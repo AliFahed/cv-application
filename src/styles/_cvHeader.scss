@@ -1,0 +1,38 @@
+.cv-header-container {
+  display: flex;
+  // align-items: center;
+  // background: lightblue;
+  padding: 40px;
+  gap: 120px;
+}
+
+.cv-photo-container {
+  background: blue;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cv-photo {
+  // background: green;
+  width: 150px;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+}
+
+.cv-header-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cv-name {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.cv-summary {
+  font-size: 1.1rem;
+}
