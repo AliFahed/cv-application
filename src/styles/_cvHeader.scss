@@ -2,20 +2,24 @@
   display: flex;
   padding: 40px;
   padding-bottom: 0;
-  gap: 105px;
+  gap: 10px;
 }
 
 .cv-photo-container {
   border: 2px dashed #000;
+  padding-top: 10px;
   display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  // text-align: center;
+  // justify-content: center;
+  // align-items: center;
+  // cursor: pointer;
 }
 
-.cv-photo {
-  width: 150px;
-}
+// .cv-photo {
+//   width: 150px;
+// }
 
 .cv-header-text-container {
   display: flex;
