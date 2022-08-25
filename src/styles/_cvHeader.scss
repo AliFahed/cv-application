@@ -1,13 +1,12 @@
 .cv-header-container {
   display: flex;
-  // align-items: center;
-  // background: lightblue;
   padding: 40px;
-  gap: 120px;
+  padding-bottom: 0;
+  gap: 105px;
 }
 
 .cv-photo-container {
-  background: blue;
+  border: 2px dashed #000;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -15,11 +14,7 @@
 }
 
 .cv-photo {
-  // background: green;
   width: 150px;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
 }
 
 .cv-header-text-container {

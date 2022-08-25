@@ -5,7 +5,7 @@ function CvHeader() {
   return (
     <div className="cv-header-container">
       <div className="cv-photo-container">
-        <div className="cv-photo">4x4 image</div>
+        <div className="cv-photo"></div>
       </div>
 
       <div className="cv-header-text-container">
