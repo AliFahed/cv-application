@@ -1,14 +1,20 @@
 import React from 'react';
 import '../styles/_cvMainContent.scss';
-import LocationIcon from '../images/location.svg';
-import PhoneIcon from '../images/phone.svg';
-import EmailIcon from '../images/email.svg';
+// import LocationIcon from '../images/location.svg';
+// import PhoneIcon from '../images/phone.svg';
+// import EmailIcon from '../images/email.svg';
+import CvContact from './CvContact';
 
 function CvMainContent() {
   return (
     <div className="cv-main-content">
       <div className="contact-and-skills-container">
-        <div className="contact-container">
+        <CvContact
+          address="Malaysia, KL"
+          phone="123-456-789"
+          email="alifahed67@gmail.com"
+        />
+        {/* <div className="contact-container">
           <div className="contact-header-text">Contact</div>
 
           <div className="contact-details-container">
@@ -27,7 +33,7 @@ function CvMainContent() {
               <p>alifahed67@gmail.com</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="skills-container">
           <div className="skills-header-text">Skills</div>

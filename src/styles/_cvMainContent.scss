@@ -15,6 +15,7 @@
 .contact-container {
   border-top: 3px solid $primaryBorderTopColor;
   padding-top: 10px;
+  min-width: 230px;
 }
 
 .contact-header-text {
@@ -78,4 +79,48 @@
 .main-section-details-header {
   font-size: 1.1rem;
   font-weight: bold;
+}
+
+/*========== Cv Contact Edit Button ==========*/
+.edit-contact-btn-container {
+  background: lightblue;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.edit-contact-btn {
+  position: absolute;
+  margin-top: 13px;
+  padding: 5px 20px;
+  background: $primaryEditBtnColor;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/*========== Cv Content Form ==========*/
+.contact-form-container {
+  background: $primaryEditBtnColor;
+  position: absolute;
+  margin-top: 195px;
+  padding: 20px;
+  border-radius: 6px;
+  display: none;
+}
+
+.show-contact-form-container {
+  display: block;
+}
+
+.hide-contact-form-container {
+  display: none;
+}
+
+.cv-contact-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
