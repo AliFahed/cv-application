@@ -1,3 +1,5 @@
+@import './variables';
+
 .cv-header-container {
   display: flex;
   padding: 40px;
@@ -34,4 +36,108 @@
 
 .cv-summary {
   font-size: 1.1rem;
+}
+
+/*========== CV Header Edit Btn ==========*/
+.btn-container {
+  // background: lightblue;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.edit-cv-header-btn {
+  position: absolute;
+  padding: 9px 25px;
+  margin: 40px;
+  background: $primaryEditBtnColor;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  // display: none;
+}
+
+.show-edit-button {
+  display: block;
+}
+
+.hide-edit-btn {
+  display: none;
+}
+
+/*========== CV Header From ==========*/
+.header-form-container {
+  background: $primaryEditBtnColor;
+  padding: 20px;
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 302px;
+  width: 560px;
+  display: none;
+  border-radius: 5px;
+}
+
+.show-header-form {
+  display: block;
+}
+
+.hide-header-from {
+  display: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.label {
+  display: block;
+  font-size: 1.2rem;
+  color: #18220f;
+}
+
+input {
+  font-family: inherit;
+  font-size: 100%;
+  height: 35px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  // height: 35px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 160px;
+  gap: 10px;
+}
+
+.close-btn {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.submit-btn {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
 }
